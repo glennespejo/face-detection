@@ -20,8 +20,7 @@ while 1:
     ret, img = cap.read()
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 10)
-    s_img = cv2.imread('/Users/glennespejo/Downloads/asd.png', -1)
-    b_img = cv2.imread('/Users/WGI/Downloads/face/black.png')
+    s_img = cv2.imread('thuglife.png', -1)
 
     c, d, f = img.shape
     # result = np.zeros((c,d,3),np.uint8)
